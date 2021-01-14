@@ -1,0 +1,23 @@
+{
+	"name": "firefly/shiny",
+	"type": "library",
+	"description": "Shiny Configuration Library for PHP 8.0+",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"authors": [
+		{
+			"name": "Lauren Black",
+			"email": "lauren@laurenblack.co.uk",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Firefly\\": "src/"
+		}
+	}
+}
